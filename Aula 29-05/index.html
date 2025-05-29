@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula de Formulários</title>
+    <link rel="stylesheet" href="estilo.css" />
+
+  </head>
+  <body>
+
+    <h1>Testando Formularios</h1>
+    <form action="#">
+    <div>
+      <br>
+
+        <label for="nomePrincipal">Nome</label><br/>
+        <input type="text" id="nomePrincipal"/><br/>
+        <label for="sobreNome">Sobrenome</label><br/>
+        <input type="text" id="sobreNome"/><br/>
+        <label>Curso: </label><br/>
+        <input type="radio" value="TINF" name="curso"/><label>Tecnico em Informática</label><br>
+        <input type="radio" value="TELE" name="curso"/><label>Tecnico em Eletrônica</label><br>
+        <input type="radio" value="ADM" name="curso"/><label>Tecnico em Administração</label><br>
+        <input type="radio" value="TCON" name="curso"><label>Tecnico em Contabilidade</label>
+
+        <br><label> Já estágiou? </label></br>
+        <input type="radio" name="estagio" id="s"><label>Sim</label>
+        <input type="radio" name="estagio" id="n"><label>Não</label>
+
+        <br><label> Disciplina Favorita: </label>
+        <select name="" id="">
+            <option value="prog">Programação</option>
+            <option value="mat">Matemática</option>
+            <option value="edf">Educação Física</option>
+            <option value="m&m">Montagem e Manutenção</option>
+        </select>
+        <br><label> Porque escolheu esse curso? </label>
+        <br><textarea rows="25" cols="50"></textarea>
+
+        <br><label> Turno Favorito </label>
+        <br><input type="checkbox" value="manha"><label>Manhã</label>
+        <br><input type="checkbox" value="tarde"><label>Tarde</label>
+
+        <br><button>Enviar</button>
+
+    </form>
+    
+    <footer id="nomemeu">
+    <a href="aluno.html">por Miguel Evangelista Lopes</a>
+    </footer>
+
+  </body>
+
+</html>
